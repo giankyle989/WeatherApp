@@ -84,7 +84,7 @@ function showWeatherData(data){
             <div class="today" id="current-temp">
             <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@4x.png" alt="" class="w-icon">
             <div class="others">
-                <div class="day">Monday</div>
+            <div class="day">${window.moment(day.dt * 1000).format('ddd')}</div>
                 <div class="temp">Night - ${day.temp.night}&#176;C</div>
                 <div class="temp">Day - ${day.temp.day}&#176;C</div>
             </div>`

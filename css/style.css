@@ -85,8 +85,12 @@
    align-items: center;
    justify-content: center;
    border: 1px solid white;
+
    border-radius: 10px;
    background: rgba(0, 0, 0, 0.2);
+}
+.future-forecast .today .others{
+   padding: 20px;
 }
 .future-forecast .today .day{
    padding: 5px 15px;
